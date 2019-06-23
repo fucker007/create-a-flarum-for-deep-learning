@@ -1,7 +1,7 @@
 #create-a-flasrum-for-deep-learning  
+=======================================
+#在centOS7环境上安装`php7+`  
 
-在centOS7环境上安装`php7+`  
----------------------------  
 
 首先先卸载原来的版本  
 ```yum - y remove php*```  
@@ -11,7 +11,7 @@
 然后安装各种php的包，看自己需要而定  
 ```yum -y install php72w php72w-cli php72w-common php72w-devel php72w-embedded php72w-fpm php72w-gd php72w-mbstring php72w-mysqlnd php72w-opcache php72w-pdo php72w-xml```   
 新建一个用户，增加安全性  
-``` \#adduser flarum```  
+``` adduser flarum```  
 暂时停留在root权限下执行命令，创建用户`flarum`的原因是为了在运行的时候以这个用户的权限运行。  
 
 使用这条命令可以安装flarum  
